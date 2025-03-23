@@ -1,0 +1,29 @@
+<div class="body">
+  <div class="container">
+    <h2>Új hirdetés elküldése</h2>
+    <form>
+      <label for="category">Ingatlan kategóriája</label>
+      <select id="category">
+        <option>Kérem válasszon</option>
+        <option>Ház</option>
+        <option>Lakás</option>
+      </select>
+
+      <label for="date">Hirdetés dátuma</label>
+      <input type="date" id="date" value="2022-03-23" disabled />
+
+      <label for="description">Ingatlan leírása</label>
+      <textarea id="description"></textarea>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="free" />
+        <label for="free">Tehermentes ingatlan</label>
+      </div>
+
+      <label for="image">Fénykép az ingatlanról</label>
+      <input type="text" id="image" placeholder="Képlink vagy fájl feltöltés" />
+
+      <button type="submit">Küldés</button>
+    </form>
+  </div>
+</div>

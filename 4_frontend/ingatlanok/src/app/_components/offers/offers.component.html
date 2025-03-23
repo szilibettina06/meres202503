@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Kategória</th>
+        <th>Leírás</th>
+        <th>Hirdetés dátuma</th>
+        <th>Tehermentes</th>
+        <th>Fénykép</th>
+    </tr>
+    <tr *ngFor="let property of properties">
+        <td>{{ property.category }}</td>
+        <td>{{ property.description }}</td>
+        <td>{{ property.date }}</td>
+        <td>{{ property.free }}</td>
+        <td><img [src]="property.image" alt="Ingatlan kép"></td>
+    </tr>
+</table>

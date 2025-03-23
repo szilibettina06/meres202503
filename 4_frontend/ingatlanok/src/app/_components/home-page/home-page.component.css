@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin-top: 13rem;
+}
+
+.offers{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(65, 65, 185);
+    border: 2px solid rgb(65, 65, 185);
+    border-radius: 10px;
+    width: 20rem;
+}
+.offers a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.addnew{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(65, 65, 185);
+    border: 2px solid rgb(65, 65, 185);
+    border-radius: 10px;
+    width: 20rem;
+}
+.addnew a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+.buttons{
+    text-align: center;
+    margin-top: 20rem;
+}

@@ -1,0 +1,8 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../public/_img/real-estate-agent.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
